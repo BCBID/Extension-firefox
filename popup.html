@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Screenshot Extension</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 10px;
+      }
+
+      #screenshotContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .screenshotImage {
+        max-width: fit-content;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="capture">Capture Screenshot</button>
+    <div id="screenshotContainer"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

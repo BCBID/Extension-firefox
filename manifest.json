@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Screenshot Saver",
+  "version": "1.0",
+  "description": "Take screenshots of your tabs and save them.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  }
+}
